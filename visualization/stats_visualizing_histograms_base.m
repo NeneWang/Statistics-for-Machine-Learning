@@ -46,7 +46,7 @@ xlabel('Value'), ylabel('Count')
 
 for bini=1:length(bins2try)
     % use hist to get histogram graph data for this bin count
-    [y,x] = histcounts(data,bins2try(bini));
+    [y,x] = hist(data,bins2try(bini));
     
     % update xdata and ydata
     set(h,'XData',x,'ydata',y);

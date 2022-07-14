@@ -17,9 +17,6 @@ c:
 	echo off
 	cls
 	git log -n 2
-	echo ""
-	echo "View on Github: "
-	echo ""
 	git config --get remote.origin.url
 
 pres-c:
