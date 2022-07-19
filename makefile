@@ -17,7 +17,6 @@ c:
 	echo off
 	cls
 	git log -n 2
-	git config --get remote.origin.url
 
 pres-c:
 	git pull
